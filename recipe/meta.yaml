@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -22,8 +22,8 @@ requirements:
     - toolchain
     - cmake
   run:
-    - xtensor >=0.12.1
-    - xtl >=0.2.8,<0.3
+    - xtensor >=0.14.0
+    - xtl >=0.3.6,<0.4
     - fftw >=3.0
     - cmake >=3.1.3
 
