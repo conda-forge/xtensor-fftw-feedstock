@@ -1,6 +1,6 @@
 {% set name = "xtensor-fftw" %}
 {% set version = "0.2.3" %}
-{% set sha256 = "191d9319cfb90e91429fdf1fee34e511671904885395dc7b4ade2fb3e7598dc3" %}
+{% set sha256 = "bf0513ca3e6b3227ceeb2caa12c2c323adf6e6df6d008a4dee4c0f17812651c4" %}
 
 package:
   name: {{ name|lower }}
@@ -17,13 +17,11 @@ build:
 requirements:
   build:
     - xtensor
-    - xtl
     - fftw
     - toolchain
     - cmake
   run:
-    - xtensor >=0.14.0
-    - xtl >=0.3.6,<0.4
+    - xtensor >=0.15.6
     - fftw >=3.0
     - cmake >=3.1.3
 
