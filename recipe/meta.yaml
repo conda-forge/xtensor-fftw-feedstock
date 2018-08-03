@@ -1,6 +1,6 @@
 {% set name = "xtensor-fftw" %}
-{% set version = "0.2.4" %}
-{% set sha256 = "8ebffe95dad6aeda301e63a9c7ecc611df740258823acf8a83e23bd2e165e14e" %}
+{% set version = "0.2.5" %}
+{% set sha256 = "7498cc597d4e32d054395fb6dab662038241032aca9a8b63771341a45af38ade" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
