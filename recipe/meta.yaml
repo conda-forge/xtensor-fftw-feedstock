@@ -23,7 +23,7 @@ requirements:
     - xtensor
     - fftw
   run:
-    - xtensor >=0.16.0
+    - xtensor >=0.16.0,<0.18
     - fftw >=3.0
 
 test:
