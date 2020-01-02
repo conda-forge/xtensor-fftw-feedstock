@@ -1,11 +1,10 @@
-c_compiler:
-- vs2008
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- vs2008
-zip_keys:
-- - c_compiler
-  - cxx_compiler
+- gxx
+cxx_compiler_version:
+- '7'
+docker_image:
+- condaforge/linux-anvil-comp7
